@@ -1,0 +1,184 @@
+/*
+   author Mickyx73 and Uchhasbarua
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+::selection {
+  color: hsl(0, 0%, 91%);
+  background: #0d81ec;
+}
+
+body {
+  background-color: #322f40;
+}
+.text-align-center {
+  text-align: center;
+}
+.clearfix {
+  clear: both;
+  float: none;
+}
+.wrapper {
+  border: 1px solid black;
+  padding: 1%;
+  width: 80%;
+  margin: 0 auto;
+}
+.wrapper h1 {
+  margin-bottom: 2%;
+}
+.container {
+  width: 90%;
+  border: 3px solid #b12cff;
+  background-color: #1b182b;
+  margin: 0 auto;
+  padding: 1%;
+  border-radius: 15px;
+  margin-bottom: 2%;
+}
+
+/*menu css start*/
+.menu ul {
+  list-style: none;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  vertical-align: middle;
+}
+.loggedin h1 {
+  color: #fa5353;
+}
+
+.menu ul li {
+  display: inline;
+  padding: 0.5%;
+}
+.menu ul li a {
+  color: rgb(255, 248, 247);
+  text-decoration: none;
+}
+.menu ul li a i {
+  font-size: 40px;
+  background-color: #fa5353;
+  border-radius: 50%;
+  padding: 5px;
+}
+.menu ul li a i:hover{
+    background-color: #b12cff;
+}
+.main-content strong {
+  color: #fa5353;
+  font-size: 35px;
+}
+.col-4 {
+  width: 20%;
+  background-color: #d1c9eb;
+  font-size: 30px;
+  font-weight: 600;
+  border-radius: 30px;
+  margin: 1%;
+  padding: 1%;
+  float: left;
+}
+/*menu css end*/
+
+/*admin manage table css end*/
+.tbl-full {
+  width: 100%;
+  color: #d1c9eb;
+  margin-top: 2%;
+}
+.tbl-30{
+    width: 90%;
+    color: #d1c9eb;
+    margin-top: 2%;
+}
+
+/*table tr{
+    border: 1px solid #fa5353;
+}*/
+table tr th {
+  border: 2px solid #fa5353;
+  font-size: 25px;
+  margin-top: 2%;
+  padding: 0.5%;
+  text-align: center;
+  border-radius: 20px;
+}
+table tr td {
+  font-size: 20px;
+  padding: 1.2%;
+}
+/*.main-content table td{
+    text-align: right;
+    padding: 2%;
+}*/
+.main-content table tr{
+    margin: 10px;
+}
+
+
+.btn-primary {
+  color: aliceblue;
+  cursor: pointer;
+  margin-left: 1%;
+  /**/
+  padding: 1%;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  padding: 10px;
+  margin-bottom: 1%;
+  text-decoration: none;
+}
+.red{
+    background-color: #fa5353;
+    font-size: 20px;
+}
+.del{
+    background-color: red;
+    font-size: 15px;
+}
+.gre{
+    background-color: lightgreen;
+    font-size: 15px;
+    color: blue;
+}
+
+.btn-primary:hover {
+  background-color: #b12cff;
+}
+
+/*admin manage table css end*/
+
+table td input[type="text"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    color: #4b4f93;
+    font-weight: bold;
+}
+table td input[type="img"]{
+  width: 50%;
+  padding: 1%;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  color: #4b4f93;
+  font-weight: bold;
+}
+.footer p {
+  color: antiquewhite;
+}
+.footer {
+  width: 100%;
+}
+.footer a {
+  text-decoration: none;
+  color: #fa5353;
+}
